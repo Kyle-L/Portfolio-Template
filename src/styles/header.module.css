@@ -1,0 +1,22 @@
+.icon {
+  display: inline-flex;
+  align-items: center;
+  transition: all 200ms ease;
+  margin: 0 1em;
+}
+
+.icon:hover, .icon:active {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
+
+.title {
+  text-align: center;
+}
+
+.titleSubheading {
+  margin: 0;
+  font-size: 0.85em;
+  font-family: var(--brand-font);
+  text-align: center;
+}

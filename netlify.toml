@@ -1,0 +1,4 @@
+[template.environment]
+    GITHUB_API_KEY = ""
+    CONTENTFUL_SPACE_ID = ""
+    CONTENTFUL_ACCESS_TOKEN = ""
