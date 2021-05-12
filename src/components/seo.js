@@ -1,8 +1,13 @@
-import React from 'react';
+import { graphql, useStaticQuery } from 'gatsby';
 import PropTypes from 'prop-types';
-import {Helmet} from 'react-helmet';
-import {useStaticQuery, graphql} from 'gatsby';
+import React from 'react';
+import { Helmet } from 'react-helmet';
 
+/**
+ * 
+ * @param {*} param0 
+ * @returns 
+ */
 const SEO = ({description, lang, meta, title}) => {
   const {site} = useStaticQuery(
       graphql`

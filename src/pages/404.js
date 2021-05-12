@@ -8,7 +8,8 @@ const NotFound = ({location}) => {
     <Layout location={location}>
       <SEO title="Not Found" />
       <div className="content">
-      <h2><span className="accent"><b>//</b></span> 404</h2>
+      <h2>Error 404</h2>
+      <p>Page not found</p>
       </div>
     </Layout>
   );

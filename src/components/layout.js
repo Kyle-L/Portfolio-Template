@@ -8,6 +8,10 @@ import Container from './container';
 import Footer from './footer';
 import Header from './header';
 
+/**
+ * Defines the generic layout for the entire website.
+ * This includes the header, footer, and how the body content is organized.
+ */
 const Layout = ({children, location}) => {
   const theme = useContext(ThemeContext);
 
@@ -29,7 +33,7 @@ const Layout = ({children, location}) => {
 
 Layout.propTypes = {
   children: PropTypes.any,
-  location: PropTypes.any,
-};
+  location: PropTypes.any
+}
 
 export default Layout;

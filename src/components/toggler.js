@@ -1,9 +1,13 @@
-import {useStyledDarkMode} from 'gatsby-styled-components-dark-mode';
+import { useStyledDarkMode } from 'gatsby-styled-components-dark-mode';
 import React from 'react';
-import {BiMoon, BiSun} from 'react-icons/bi';
+import { BiMoon, BiSun } from 'react-icons/bi';
 
+/**
+ * 
+ * @returns 
+ */
 const Toggle = () => {
-  const {isDark, toggleDark} = useStyledDarkMode();
+  const { isDark, toggleDark } = useStyledDarkMode();
 
   return (
     <button onClick={() => toggleDark()} checked={!!isDark}>

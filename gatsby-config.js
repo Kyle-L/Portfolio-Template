@@ -26,7 +26,8 @@ if (!spaceId || !accessToken) {
 module.exports = {
   siteMetadata: {
     siteUrl: 'https://kylelierer.com',
-    title: `Kyle Lierer`,
+    title: `Website Title`,
+    titleSubheading: 'Insert subheading here',
     description: `Hi! I'm Kyle Lierer and this is my personal website!`,
     author: `Kyle Lierer`,
     lang: 'en',
@@ -34,12 +35,12 @@ module.exports = {
     type: 'website',
     social: {
       facebook: '',
-      twitter: 'https://twitter.com/KyleLierer',
+      twitter: '',
       youtube: '',
-      instagram: 'https://www.instagram.com/kyle_lierer/',
-      linkedin: 'https://www.linkedin.com/in/kyle-lierer',
-      github: 'https://github.com/Kyle-L',
-      email: 'liererkt@gmail.com',
+      instagram: '',
+      linkedin: '',
+      github: '',
+      email: '',
     },
   },
   plugins: [

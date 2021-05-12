@@ -4,16 +4,20 @@ import {
   faInstagram,
   faLinkedin,
   faTwitter,
-  faYoutube,
+  faYoutube
 } from '@fortawesome/free-brands-svg-icons';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {graphql, useStaticQuery} from 'gatsby';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { graphql, useStaticQuery } from 'gatsby';
 import React from 'react';
 import styles from '../styles/footer.module.css';
 
+/**
+ * 
+ * @returns 
+ */
 const Footer = () => {
-  const {site} = useStaticQuery(
-      graphql`
+  const { site } = useStaticQuery(
+    graphql`
       query {
         site {
           siteMetadata {
