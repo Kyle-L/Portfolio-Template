@@ -6,13 +6,15 @@ export const GlobalStyles = createGlobalStyle`
   --main-font: 'Helvetica', sans-serif;
 }
 
-html,
-body {
-  margin: 0;
-  padding: 0;
+html {
   height: 100%;
   width: 100%;
   overflow: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 body {

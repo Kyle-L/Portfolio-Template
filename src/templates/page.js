@@ -30,7 +30,7 @@ const Page = ({ location, data }) => {
               <Col sm={4}>
                 <Card>
                   <Card.Body>
-                    <Card.Title><Link to={post.slug}>{post.title}</Link></Card.Title>
+                    <Card.Title><Link to={`/entry/${post.slug}`}>{post.title}</Link></Card.Title>
                     <Card.Text>{post.description.description}</Card.Text>
                   </Card.Body>
                 </Card>

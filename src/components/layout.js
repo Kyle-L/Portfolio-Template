@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React, {useContext} from 'react';
+import React, {useContext, useEffect} from 'react';
 import {Animated} from 'react-animated-css';
 import {ThemeContext} from 'styled-components';
 import {GlobalStyles} from '../styles/global';
@@ -13,6 +13,9 @@ import Header from './header';
  * This includes the header, footer, and how the body content is organized.
  */
 const Layout = ({children, location}) => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const theme = useContext(ThemeContext);
 
   return (
