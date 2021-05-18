@@ -45,6 +45,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-sitemap',
+    'gatsby-transformer-remark',
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-styled-components-dark-mode`,

@@ -22,7 +22,7 @@ const Header = ({location}) => {
             titleSubheading
           }
         }
-        allContentfulPage {
+        allContentfulPage (sort: {fields: sortOrder}) {
           edges {
             node {
               title
