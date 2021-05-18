@@ -25,11 +25,11 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://kylelierer.com',
-    title: `Website Title`,
-    titleSubheading: 'Insert subheading here',
-    description: `Hi! I'm Kyle Lierer and this is my personal website!`,
-    author: `Kyle Lierer`,
+    siteUrl: '[Insert url here]',
+    title: `[Insert title here]`,
+    titleSubheading: '[Insert subheading here]',
+    description: `[Insert description here]`,
+    author: `[Insert author of site here]`,
     lang: 'en',
     locale: 'en_US',
     type: 'website',

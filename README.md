@@ -1,6 +1,6 @@
-# [Portfolio-Template]
+# Portfolio-Template
 
-- [[Portfolio-Template]](#portfolio-template)
+- [Portfolio-Template](#portfolio-template)
   - [Overview](#overview)
   - [Core Tech Stack](#core-tech-stack)
   - [Prerequisites](#prerequisites)
@@ -30,36 +30,86 @@ This is the repository for the development of a portfolio website template. This
 - [ ] NodeJS
 - [ ] NPM
 - [ ] An IDE of your choice ([Visual Studio Code](https://code.visualstudio.com/) recommended)
+- [ ] [Contentful](https://www.contentful.com/) account and space.
 
 <a name="setup"/></a>
 
 ## Setup
 
-1. Clone the repository.
+1. Fork the repository.
+   
+2. Clone the repository.
 
 ```
-git clone git@github.com:Kyle-L/Portfolio.git
+git clone git@github.com:your-username/Portfolio.git
 ```
 
-2. Check into the cloned repository.
+3. Check into the cloned repository.
 
 ```
 cd Portfolio/
 ```
 
-3. Install dependencies.
+4. Install dependencies.
 
 ```
 npm install
 ```
 
-4. Provide GitHub personal access token.
+5. Setup environmental variables and update contentful space model.
 
 ```
 npm run setup
 ```
 
-5. Run in development mode.
+6. Update `modules.export` in `gatsby-config.js` with your information. So change...
+```
+module.exports = {
+  siteMetadata: {
+    siteUrl: '[Insert url here]',
+    title: `[Insert title here]`,
+    titleSubheading: '[Insert subheading here]',
+    description: `[Insert description here]`,
+    author: `[Insert author of site here]`,
+    lang: 'en',
+    locale: 'en_US',
+    type: 'website',
+    social: {
+      facebook: '',
+      twitter: '',
+      youtube: '',
+      instagram: '',
+      linkedin: '',
+      github: '',
+      email: '',
+    },
+  },
+```
+to something like...
+```
+module.exports = {
+  siteMetadata: {
+    siteUrl: 'https://kylelierer.com',
+    title: `My Website`,
+    titleSubheading: 'This is the subheading of my website.',
+    description: `This is my website!`,
+    author: `Kyle Lierer`,
+    lang: 'en',
+    locale: 'en_US',
+    type: 'website',
+    social: {
+      facebook: 'https://facebook.com/my-profile',
+      twitter: 'https://twitter.com/my-profile',
+      youtube: 'https://youtube.com/my-profile',
+      instagram: 'https://instagram.com/my-profile',
+      linkedin: 'https://linkedin.com/my-profile',
+      github: 'https://github.com/my-profile',
+      email: 'mailto:myemail@mail.com',
+    },
+  },
+```
+
+7. Finally, run in development mode.
 
 ```
 npm run dev
