@@ -171,7 +171,7 @@
         "id": "blogPost",
         "type": "ContentType",
         "createdAt": "2021-05-08T15:44:12.424Z",
-        "updatedAt": "2021-05-18T14:15:51.306Z",
+        "updatedAt": "2021-05-18T14:35:32.706Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -179,8 +179,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 5,
-        "publishedAt": "2021-05-18T14:15:51.306Z",
+        "publishedVersion": 11,
+        "publishedAt": "2021-05-18T14:35:32.706Z",
         "firstPublishedAt": "2021-05-08T15:44:15.934Z",
         "createdBy": {
           "sys": {
@@ -196,8 +196,8 @@
             "id": "7g1WuwYR44Dg2BlyNuoeOT"
           }
         },
-        "publishedCounter": 3,
-        "version": 6,
+        "publishedCounter": 6,
+        "version": 12,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -256,6 +256,17 @@
           "omitted": false
         },
         {
+          "id": "body",
+          "name": "Body",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
           "id": "publishDate",
           "name": "Publish Date",
           "type": "Date",
@@ -265,28 +276,6 @@
           ],
           "disabled": false,
           "omitted": false
-        },
-        {
-          "id": "postType",
-          "name": "Post Type",
-          "type": "Array",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false,
-          "items": {
-            "type": "Link",
-            "validations": [
-              {
-                "linkContentType": [
-                  "postType"
-                ]
-              }
-            ],
-            "linkType": "Entry"
-          }
         }
       ]
     }
@@ -386,7 +375,7 @@
             "linkType": "Space"
           }
         },
-        "version": 6,
+        "version": 12,
         "createdAt": "2021-05-08T15:44:16.029Z",
         "createdBy": {
           "sys": {
@@ -395,7 +384,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2021-05-18T14:15:52.233Z",
+        "updatedAt": "2021-05-18T14:35:33.444Z",
         "updatedBy": {
           "sys": {
             "id": "7g1WuwYR44Dg2BlyNuoeOT",
@@ -440,22 +429,17 @@
           "widgetNamespace": "builtin"
         },
         {
+          "fieldId": "body",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
           "fieldId": "publishDate",
           "settings": {
             "ampm": "24",
             "format": "timeZ"
           },
           "widgetId": "datePicker",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "postType",
-          "settings": {
-            "bulkEditing": false,
-            "showLinkEntityAction": true,
-            "showCreateEntityAction": false
-          },
-          "widgetId": "entryLinksEditor",
           "widgetNamespace": "builtin"
         }
       ]
@@ -554,7 +538,7 @@
         "id": "4KZNqfElM4SBHZNcK8AlYD",
         "type": "Entry",
         "createdAt": "2021-05-08T15:44:58.512Z",
-        "updatedAt": "2021-05-18T14:10:15.974Z",
+        "updatedAt": "2021-05-18T15:21:17.084Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -562,8 +546,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 7,
-        "publishedAt": "2021-05-18T14:10:15.974Z",
+        "publishedVersion": 9,
+        "publishedAt": "2021-05-18T15:21:17.084Z",
         "firstPublishedAt": "2021-05-08T15:46:03.190Z",
         "createdBy": {
           "sys": {
@@ -579,8 +563,8 @@
             "id": "7g1WuwYR44Dg2BlyNuoeOT"
           }
         },
-        "publishedCounter": 4,
-        "version": 8,
+        "publishedCounter": 5,
+        "version": 10,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -620,6 +604,20 @@
                 "linkType": "Entry",
                 "id": "4eWymIvrxmPKHpVsWerxPP"
               }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "20U9uJkWald6RICGbiAZWA"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "4J7vOIygSQOuFKhSX8Dp3P"
+              }
             }
           ]
         }
@@ -641,7 +639,7 @@
         "id": "4eWymIvrxmPKHpVsWerxPP",
         "type": "Entry",
         "createdAt": "2021-05-08T15:44:58.521Z",
-        "updatedAt": "2021-05-08T15:44:59.647Z",
+        "updatedAt": "2021-05-18T15:15:30.006Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -649,8 +647,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 1,
-        "publishedAt": "2021-05-08T15:44:59.647Z",
+        "publishedVersion": 11,
+        "publishedAt": "2021-05-18T15:15:30.006Z",
         "firstPublishedAt": "2021-05-08T15:44:59.647Z",
         "createdBy": {
           "sys": {
@@ -666,8 +664,8 @@
             "id": "7g1WuwYR44Dg2BlyNuoeOT"
           }
         },
-        "publishedCounter": 1,
-        "version": 2,
+        "publishedCounter": 3,
+        "version": 12,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -685,27 +683,19 @@
       },
       "fields": {
         "title": {
-          "en-US": "Story Example"
+          "en-US": "Frankenstein, Chapter 1"
         },
         "slug": {
-          "en-US": "story-example"
+          "en-US": "frankenstein"
         },
         "description": {
-          "en-US": "Story example    "
+          "en-US": "The first chapter of Frankenstein"
+        },
+        "body": {
+          "en-US": "St. Petersburgh, Dec. 11th.\n\nYou will rejoice to hear that no disaster has accompanied the\ncommencement of an enterprise which you have regarded with such evil\nforebodings. I arrived here yesterday, and my first task is to assure\nmy dear sister of my welfare and increasing confidence in the success\nof my undertaking.\n\nI am already far north of London, and as I walk in the streets of\nPetersburgh, I feel a cold northern breeze play upon my cheeks, which\nbraces my nerves and fills me with delight. Do you understand this\nfeeling? This breeze, which has travelled from the regions towards\nwhich I am advancing, gives me a foretaste of those icy climes.\nInspirited by this wind of promise, my daydreams become more fervent\nand vivid. I try in vain to be persuaded that the pole is the seat of\nfrost and desolation; it ever presents itself to my imagination as the\nregion of beauty and delight. There, Margaret, the sun is for ever\nvisible, its broad disk just skirting the horizon and diffusing a\nperpetual splendour. There—for with your leave, my sister, I will put\nsome trust in preceding navigators—there snow and frost are banished;\nand, sailing over a calm sea, we may be wafted to a land surpassing in\nwonders and in beauty every region hitherto discovered on the habitable\nglobe. Its productions and features may be without example, as the\nphenomena of the heavenly bodies undoubtedly are in those undiscovered\nsolitudes. What may not be expected in a country of eternal light? I\nmay there discover the wondrous power which attracts the needle and may\nregulate a thousand celestial observations that require only this\nvoyage to render their seeming eccentricities consistent for ever. I\nshall satiate my ardent curiosity with the sight of a part of the world\nnever before visited, and may tread a land never before imprinted by\nthe foot of man. These are my enticements, and they are sufficient to\nconquer all fear of danger or death and to induce me to commence this\nlaborious voyage with the joy a child feels when he embarks in a little\nboat, with his holiday mates, on an expedition of discovery up his\nnative river. But supposing all these conjectures to be false, you\ncannot contest the inestimable benefit which I shall confer on all\nmankind, to the last generation, by discovering a passage near the pole\nto those countries, to reach which at present so many months are\nrequisite; or by ascertaining the secret of the magnet, which, if at\nall possible, can only be effected by an undertaking such as mine.\n\nThese reflections have dispelled the agitation with which I began my\nletter, and I feel my heart glow with an enthusiasm which elevates me\nto heaven, for nothing contributes so much to tranquillise the mind as\na steady purpose—a point on which the soul may fix its intellectual\neye. This expedition has been the favourite dream of my early years. I\nhave read with ardour the accounts of the various voyages which have\nbeen made in the prospect of arriving at the North Pacific Ocean\nthrough the seas which surround the pole. You may remember that a\nhistory of all the voyages made for purposes of discovery composed the\nwhole of our good Uncle Thomas’ library. My education was neglected,\nyet I was passionately fond of reading. These volumes were my study\nday and night, and my familiarity with them increased that regret which\nI had felt, as a child, on learning that my father’s dying injunction\nhad forbidden my uncle to allow me to embark in a seafaring life.\n\nThese visions faded when I perused, for the first time, those poets\nwhose effusions entranced my soul and lifted it to heaven. I also\nbecame a poet and for one year lived in a paradise of my own creation;\nI imagined that I also might obtain a niche in the temple where the\nnames of Homer and Shakespeare are consecrated. You are well\nacquainted with my failure and how heavily I bore the disappointment.\nBut just at that time I inherited the fortune of my cousin, and my\nthoughts were turned into the channel of their earlier bent.\n\nSix years have passed since I resolved on my present undertaking. I\ncan, even now, remember the hour from which I dedicated myself to this\ngreat enterprise. I commenced by inuring my body to hardship. I\naccompanied the whale-fishers on several expeditions to the North Sea;\nI voluntarily endured cold, famine, thirst, and want of sleep; I often\nworked harder than the common sailors during the day and devoted my\nnights to the study of mathematics, the theory of medicine, and those\nbranches of physical science from which a naval adventurer might derive\nthe greatest practical advantage. Twice I actually hired myself as an\nunder-mate in a Greenland whaler, and acquitted myself to admiration. I\nmust own I felt a little proud when my captain offered me the second\ndignity in the vessel and entreated me to remain with the greatest\nearnestness, so valuable did he consider my services.\n\nAnd now, dear Margaret, do I not deserve to accomplish some great purpose?\nMy life might have been passed in ease and luxury, but I preferred glory to\nevery enticement that wealth placed in my path. Oh, that some encouraging\nvoice would answer in the affirmative! My courage and my resolution is\nfirm; but my hopes fluctuate, and my spirits are often depressed. I am\nabout to proceed on a long and difficult voyage, the emergencies of which\nwill demand all my fortitude: I am required not only to raise the spirits\nof others, but sometimes to sustain my own, when theirs are failing.\n\nThis is the most favourable period for travelling in Russia. They fly\nquickly over the snow in their sledges; the motion is pleasant, and, in\nmy opinion, far more agreeable than that of an English stagecoach. The\ncold is not excessive, if you are wrapped in furs—a dress which I have\nalready adopted, for there is a great difference between walking the\ndeck and remaining seated motionless for hours, when no exercise\nprevents the blood from actually freezing in your veins. I have no\nambition to lose my life on the post-road between St. Petersburgh and\nArchangel.\n\nI shall depart for the latter town in a fortnight or three weeks; and my\nintention is to hire a ship there, which can easily be done by paying the\ninsurance for the owner, and to engage as many sailors as I think necessary\namong those who are accustomed to the whale-fishing. I do not intend to\nsail until the month of June; and when shall I return? Ah, dear sister, how\ncan I answer this question? If I succeed, many, many months, perhaps years,\nwill pass before you and I may meet. If I fail, you will see me again soon,\nor never.\n\nFarewell, my dear, excellent Margaret. Heaven shower down blessings on you,\nand save me, that I may again and again testify my gratitude for all your\nlove and kindness.\n\nYour affectionate brother,\n\nR. Walton"
         },
         "publishDate": {
           "en-US": "2021-05-07T00:00-04:00"
-        },
-        "postType": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "4PCSTU6I1bJUBccZNruMiz"
-              }
-            }
-          ]
         }
       }
     },
@@ -858,6 +848,158 @@
         },
         "body": {
           "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum lectus elit, quis tempus tortor vulputate nec. Cras facilisis suscipit nisi, ac condimentum ipsum pretium vitae. Pellentesque non risus ut nibh dapibus tempus nec a nisi. Phasellus aliquam placerat augue. Integer tempus leo congue, egestas ex pretium, suscipit massa. Proin placerat suscipit posuere. Donec ipsum enim, aliquam quis placerat accumsan, pretium nec tortor.\n\nNulla ex nibh, feugiat sit amet faucibus id, venenatis ut purus. Praesent risus est, placerat vestibulum luctus nec, volutpat sed quam. Vestibulum rhoncus tincidunt posuere. Integer nunc massa, convallis id lobortis et, accumsan ut massa. Suspendisse in turpis finibus, sollicitudin leo et, feugiat est. Phasellus commodo maximus iaculis. Nunc pulvinar sit amet sem viverra vestibulum. Curabitur sit amet nisl a arcu egestas faucibus nec at risus. Sed et felis tristique, tincidunt sapien sit amet, egestas tellus.\n\nSed quis augue non neque vestibulum ornare vel in ligula. Integer pharetra ipsum vitae urna efficitur pharetra. Sed vehicula nunc nec arcu volutpat faucibus. Proin vitae eros id velit venenatis commodo. Sed nunc urna, tincidunt eu odio ut, convallis ultrices massa. Sed eget mauris feugiat, molestie ligula sit amet, malesuada odio. Vestibulum blandit dapibus convallis.\n\nQuisque at neque id est suscipit condimentum. Maecenas ut tellus in nisl sollicitudin ultrices. Ut ligula quam, aliquet hendrerit molestie et, efficitur eu eros. Sed malesuada eros non bibendum viverra. Cras a auctor dui. In dictum blandit molestie. Cras pulvinar dapibus nibh vel egestas. Suspendisse laoreet pharetra turpis sed lacinia. Sed pulvinar vel turpis non efficitur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam id lacus condimentum, maximus nisi et, ullamcorper erat. Duis gravida, augue eu blandit mattis, ipsum lorem sagittis nibh, a maximus risus massa vitae sapien. Integer non venenatis sem. Mauris sagittis vulputate sapien, eget hendrerit urna malesuada quis. Quisque metus tellus, tincidunt vitae orci quis, suscipit efficitur orci.\n\nVivamus augue odio, accumsan sit amet eleifend sed, laoreet eu ipsum. Integer eu orci a metus aliquet auctor eu porta nisl. Fusce at lacinia erat. Etiam sed interdum nisl. Phasellus nec turpis eleifend, gravida nibh at, mollis nulla. Cras a purus vel tellus commodo tristique. Integer at malesuada dui, vitae feugiat quam. Integer in elit ultrices, porta justo ut, convallis risus. Phasellus convallis quam vitae vestibulum elementum. Vivamus vitae interdum risus. Quisque cursus augue ac sem varius, id sodales massa lacinia. Vivamus in dui fringilla, facilisis lectus quis, laoreet massa. Pellentesque ultricies nibh nec felis faucibus aliquam. Morbi sollicitudin risus sed purus scelerisque, nec pharetra erat mattis. Duis nec congue massa. Cras ut risus in diam elementum fermentum."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "y7ixpeslcv9a"
+          }
+        },
+        "id": "20U9uJkWald6RICGbiAZWA",
+        "type": "Entry",
+        "createdAt": "2021-05-18T15:15:34.773Z",
+        "updatedAt": "2021-05-18T15:17:41.029Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2021-05-18T15:17:41.029Z",
+        "firstPublishedAt": "2021-05-18T15:17:41.029Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7g1WuwYR44Dg2BlyNuoeOT"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7g1WuwYR44Dg2BlyNuoeOT"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7g1WuwYR44Dg2BlyNuoeOT"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blogPost"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "The Picture of Dorian Gray, Chapter 2"
+        },
+        "slug": {
+          "en-US": "the-picture-of-dorian-gray-chapter"
+        },
+        "description": {
+          "en-US": "The second chapter of The Picture of Dorian Gray"
+        },
+        "body": {
+          "en-US": "As they entered they saw Dorian Gray. He was seated at the piano, with\nhis back to them, turning over the pages of a volume of Schumann’s\n“Forest Scenes.” “You must lend me these, Basil,” he cried. “I want to\nlearn them. They are perfectly charming.”\n\n“That entirely depends on how you sit to-day, Dorian.”\n\n“Oh, I am tired of sitting, and I don’t want a life-sized portrait of\nmyself,” answered the lad, swinging round on the music-stool in a\nwilful, petulant manner. When he caught sight of Lord Henry, a faint\nblush coloured his cheeks for a moment, and he started up. “I beg your\npardon, Basil, but I didn’t know you had any one with you.”\n\n“This is Lord Henry Wotton, Dorian, an old Oxford friend of mine. I\nhave just been telling him what a capital sitter you were, and now you\nhave spoiled everything.”\n\n“You have not spoiled my pleasure in meeting you, Mr. Gray,” said Lord\nHenry, stepping forward and extending his hand. “My aunt has often\nspoken to me about you. You are one of her favourites, and, I am\nafraid, one of her victims also.”\n\n“I am in Lady Agatha’s black books at present,” answered Dorian with a\nfunny look of penitence. “I promised to go to a club in Whitechapel\nwith her last Tuesday, and I really forgot all about it. We were to\nhave played a duet together—three duets, I believe. I don’t know what\nshe will say to me. I am far too frightened to call.”\n\n“Oh, I will make your peace with my aunt. She is quite devoted to you.\nAnd I don’t think it really matters about your not being there. The\naudience probably thought it was a duet. When Aunt Agatha sits down to\nthe piano, she makes quite enough noise for two people.”\n\n“That is very horrid to her, and not very nice to me,” answered Dorian,\nlaughing.\n\nLord Henry looked at him. Yes, he was certainly wonderfully handsome,\nwith his finely curved scarlet lips, his frank blue eyes, his crisp\ngold hair. There was something in his face that made one trust him at\nonce. All the candour of youth was there, as well as all youth’s\npassionate purity. One felt that he had kept himself unspotted from the\nworld. No wonder Basil Hallward worshipped him.\n\n“You are too charming to go in for philanthropy, Mr. Gray—far too\ncharming.” And Lord Henry flung himself down on the divan and opened\nhis cigarette-case.\n\nThe painter had been busy mixing his colours and getting his brushes\nready. He was looking worried, and when he heard Lord Henry’s last\nremark, he glanced at him, hesitated for a moment, and then said,\n“Harry, I want to finish this picture to-day. Would you think it\nawfully rude of me if I asked you to go away?”\n\nLord Henry smiled and looked at Dorian Gray. “Am I to go, Mr. Gray?” he\nasked.\n\n“Oh, please don’t, Lord Henry. I see that Basil is in one of his sulky\nmoods, and I can’t bear him when he sulks. Besides, I want you to tell\nme why I should not go in for philanthropy.”\n\n“I don’t know that I shall tell you that, Mr. Gray. It is so tedious a\nsubject that one would have to talk seriously about it. But I certainly\nshall not run away, now that you have asked me to stop. You don’t\nreally mind, Basil, do you? You have often told me that you liked your\nsitters to have some one to chat to.”\n\nHallward bit his lip. “If Dorian wishes it, of course you must stay.\nDorian’s whims are laws to everybody, except himself.”\n\nLord Henry took up his hat and gloves. “You are very pressing, Basil,\nbut I am afraid I must go. I have promised to meet a man at the\nOrleans. Good-bye, Mr. Gray. Come and see me some afternoon in Curzon\nStreet. I am nearly always at home at five o’clock. Write to me when\nyou are coming. I should be sorry to miss you.”\n\n“Basil,” cried Dorian Gray, “if Lord Henry Wotton goes, I shall go,\ntoo. You never open your lips while you are painting, and it is\nhorribly dull standing on a platform and trying to look pleasant. Ask\nhim to stay. I insist upon it.”\n\n“Stay, Harry, to oblige Dorian, and to oblige me,” said Hallward,\ngazing intently at his picture. “It is quite true, I never talk when I\nam working, and never listen either, and it must be dreadfully tedious\nfor my unfortunate sitters. I beg you to stay.”\n\n“But what about my man at the Orleans?”\n\nThe painter laughed. “I don’t think there will be any difficulty about\nthat. Sit down again, Harry. And now, Dorian, get up on the platform,\nand don’t move about too much, or pay any attention to what Lord Henry\nsays. He has a very bad influence over all his friends, with the single\nexception of myself.”\n\nDorian Gray stepped up on the dais with the air of a young Greek\nmartyr, and made a little _moue_ of discontent to Lord Henry, to whom\nhe had rather taken a fancy. He was so unlike Basil. They made a\ndelightful contrast. And he had such a beautiful voice. After a few\nmoments he said to him, “Have you really a very bad influence, Lord\nHenry? As bad as Basil says?”\n\n“There is no such thing as a good influence, Mr. Gray. All influence is\nimmoral—immoral from the scientific point of view.”\n\n“Why?”\n\n“Because to influence a person is to give him one’s own soul. He does\nnot think his natural thoughts, or burn with his natural passions. His\nvirtues are not real to him. His sins, if there are such things as\nsins, are borrowed. He becomes an echo of some one else’s music, an\nactor of a part that has not been written for him. The aim of life is\nself-development. To realize one’s nature perfectly—that is what each\nof us is here for. People are afraid of themselves, nowadays. They have\nforgotten the highest of all duties, the duty that one owes to one’s\nself. Of course, they are charitable. They feed the hungry and clothe\nthe beggar. But their own souls starve, and are naked. Courage has gone\nout of our race. Perhaps we never really had it. The terror of society,\nwhich is the basis of morals, the terror of God, which is the secret of\nreligion—these are the two things that govern us. And yet—”\n\n“Just turn your head a little more to the right, Dorian, like a good\nboy,” said the painter, deep in his work and conscious only that a look\nhad come into the lad’s face that he had never seen there before.\n\n“And yet,” continued Lord Henry, in his low, musical voice, and with\nthat graceful wave of the hand that was always so characteristic of\nhim, and that he had even in his Eton days, “I believe that if one man\nwere to live out his life fully and completely, were to give form to\nevery feeling, expression to every thought, reality to every dream—I\nbelieve that the world would gain such a fresh impulse of joy that we\nwould forget all the maladies of mediævalism, and return to the\nHellenic ideal—to something finer, richer than the Hellenic ideal, it\nmay be. But the bravest man amongst us is afraid of himself. The\nmutilation of the savage has its tragic survival in the self-denial\nthat mars our lives. We are punished for our refusals. Every impulse\nthat we strive to strangle broods in the mind and poisons us. The body\nsins once, and has done with its sin, for action is a mode of\npurification. Nothing remains then but the recollection of a pleasure,\nor the luxury of a regret. The only way to get rid of a temptation is\nto yield to it. Resist it, and your soul grows sick with longing for\nthe things it has forbidden to itself, with desire for what its\nmonstrous laws have made monstrous and unlawful. It has been said that\nthe great events of the world take place in the brain. It is in the\nbrain, and the brain only, that the great sins of the world take place\nalso. You, Mr. Gray, you yourself, with your rose-red youth and your\nrose-white boyhood, you have had passions that have made you afraid,\nthoughts that have filled you with terror, day-dreams and sleeping\ndreams whose mere memory might stain your cheek with shame—”\n\n“Stop!” faltered Dorian Gray, “stop! you bewilder me. I don’t know what\nto say. There is some answer to you, but I cannot find it. Don’t speak.\nLet me think. Or, rather, let me try not to think.”\n\nFor nearly ten minutes he stood there, motionless, with parted lips and\neyes strangely bright. He was dimly conscious that entirely fresh\ninfluences were at work within him. Yet they seemed to him to have come\nreally from himself. The few words that Basil’s friend had said to\nhim—words spoken by chance, no doubt, and with wilful paradox in\nthem—had touched some secret chord that had never been touched before,\nbut that he felt was now vibrating and throbbing to curious pulses.\n\nMusic had stirred him like that. Music had troubled him many times. But\nmusic was not articulate. It was not a new world, but rather another\nchaos, that it created in us. Words! Mere words! How terrible they\nwere! How clear, and vivid, and cruel! One could not escape from them.\nAnd yet what a subtle magic there was in them! They seemed to be able\nto give a plastic form to formless things, and to have a music of their\nown as sweet as that of viol or of lute. Mere words! Was there anything\nso real as words?\n\nYes; there had been things in his boyhood that he had not understood.\nHe understood them now. Life suddenly became fiery-coloured to him. It\nseemed to him that he had been walking in fire. Why had he not known\nit?\n\nWith his subtle smile, Lord Henry watched him. He knew the precise\npsychological moment when to say nothing. He felt intensely interested.\nHe was amazed at the sudden impression that his words had produced,\nand, remembering a book that he had read when he was sixteen, a book\nwhich had revealed to him much that he had not known before, he\nwondered whether Dorian Gray was passing through a similar experience.\nHe had merely shot an arrow into the air. Had it hit the mark? How\nfascinating the lad was!\n\nHallward painted away with that marvellous bold touch of his, that had\nthe true refinement and perfect delicacy that in art, at any rate comes\nonly from strength. He was unconscious of the silence.\n\n“Basil, I am tired of standing,” cried Dorian Gray suddenly. “I must go\nout and sit in the garden. The air is stifling here.”\n\n“My dear fellow, I am so sorry. When I am painting, I can’t think of\nanything else. But you never sat better. You were perfectly still. And\nI have caught the effect I wanted—the half-parted lips and the bright\nlook in the eyes. I don’t know what Harry has been saying to you, but\nhe has certainly made you have the most wonderful expression. I suppose\nhe has been paying you compliments. You mustn’t believe a word that he\nsays.”\n\n“He has certainly not been paying me compliments. Perhaps that is the\nreason that I don’t believe anything he has told me.”\n\n“You know you believe it all,” said Lord Henry, looking at him with his\ndreamy languorous eyes. “I will go out to the garden with you. It is\nhorribly hot in the studio. Basil, let us have something iced to drink,\nsomething with strawberries in it.”\n\n“Certainly, Harry. Just touch the bell, and when Parker comes I will\ntell him what you want. I have got to work up this background, so I\nwill join you later on. Don’t keep Dorian too long. I have never been\nin better form for painting than I am to-day. This is going to be my\nmasterpiece. It is my masterpiece as it stands.”\n\nLord Henry went out to the garden and found Dorian Gray burying his\nface in the great cool lilac-blossoms, feverishly drinking in their\nperfume as if it had been wine. He came close to him and put his hand\nupon his shoulder. “You are quite right to do that,” he murmured.\n“Nothing can cure the soul but the senses, just as nothing can cure the\nsenses but the soul.”\n\nThe lad started and drew back. He was bareheaded, and the leaves had\ntossed his rebellious curls and tangled all their gilded threads. There\nwas a look of fear in his eyes, such as people have when they are\nsuddenly awakened. His finely chiselled nostrils quivered, and some\nhidden nerve shook the scarlet of his lips and left them trembling.\n\n“Yes,” continued Lord Henry, “that is one of the great secrets of\nlife—to cure the soul by means of the senses, and the senses by means\nof the soul. You are a wonderful creation. You know more than you think\nyou know, just as you know less than you want to know.”\n\nDorian Gray frowned and turned his head away. He could not help liking\nthe tall, graceful young man who was standing by him. His romantic,\nolive-coloured face and worn expression interested him. There was\nsomething in his low languid voice that was absolutely fascinating. His\ncool, white, flowerlike hands, even, had a curious charm. They moved,\nas he spoke, like music, and seemed to have a language of their own.\nBut he felt afraid of him, and ashamed of being afraid. Why had it been\nleft for a stranger to reveal him to himself? He had known Basil\nHallward for months, but the friendship between them had never altered\nhim. Suddenly there had come some one across his life who seemed to\nhave disclosed to him life’s mystery. And, yet, what was there to be\nafraid of? He was not a schoolboy or a girl. It was absurd to be\nfrightened.\n\n“Let us go and sit in the shade,” said Lord Henry. “Parker has brought\nout the drinks, and if you stay any longer in this glare, you will be\nquite spoiled, and Basil will never paint you again. You really must\nnot allow yourself to become sunburnt. It would be unbecoming.”\n\n“What can it matter?” cried Dorian Gray, laughing, as he sat down on\nthe seat at the end of the garden.\n\n“It should matter everything to you, Mr. Gray.”\n\n“Why?”\n\n“Because you have the most marvellous youth, and youth is the one thing\nworth having.”\n\n“I don’t feel that, Lord Henry.”\n\n“No, you don’t feel it now. Some day, when you are old and wrinkled and\nugly, when thought has seared your forehead with its lines, and passion\nbranded your lips with its hideous fires, you will feel it, you will\nfeel it terribly. Now, wherever you go, you charm the world. Will it\nalways be so? ... You have a wonderfully beautiful face, Mr. Gray.\nDon’t frown. You have. And beauty is a form of genius—is higher,\nindeed, than genius, as it needs no explanation. It is of the great\nfacts of the world, like sunlight, or spring-time, or the reflection in\ndark waters of that silver shell we call the moon. It cannot be\nquestioned. It has its divine right of sovereignty. It makes princes of\nthose who have it. You smile? Ah! when you have lost it you won’t\nsmile.... People say sometimes that beauty is only superficial. That\nmay be so, but at least it is not so superficial as thought is. To me,\nbeauty is the wonder of wonders. It is only shallow people who do not\njudge by appearances. The true mystery of the world is the visible, not\nthe invisible.... Yes, Mr. Gray, the gods have been good to you. But\nwhat the gods give they quickly take away. You have only a few years in\nwhich to live really, perfectly, and fully. When your youth goes, your\nbeauty will go with it, and then you will suddenly discover that there\nare no triumphs left for you, or have to content yourself with those\nmean triumphs that the memory of your past will make more bitter than\ndefeats. Every month as it wanes brings you nearer to something\ndreadful. Time is jealous of you, and wars against your lilies and your\nroses. You will become sallow, and hollow-cheeked, and dull-eyed. You\nwill suffer horribly.... Ah! realize your youth while you have it.\nDon’t squander the gold of your days, listening to the tedious, trying\nto improve the hopeless failure, or giving away your life to the\nignorant, the common, and the vulgar. These are the sickly aims, the\nfalse ideals, of our age. Live! Live the wonderful life that is in you!\nLet nothing be lost upon you. Be always searching for new sensations.\nBe afraid of nothing.... A new Hedonism—that is what our century wants.\nYou might be its visible symbol. With your personality there is nothing\nyou could not do. The world belongs to you for a season.... The moment\nI met you I saw that you were quite unconscious of what you really are,\nof what you really might be. There was so much in you that charmed me\nthat I felt I must tell you something about yourself. I thought how\ntragic it would be if you were wasted. For there is such a little time\nthat your youth will last—such a little time. The common hill-flowers\nwither, but they blossom again. The laburnum will be as yellow next\nJune as it is now. In a month there will be purple stars on the\nclematis, and year after year the green night of its leaves will hold\nits purple stars. But we never get back our youth. The pulse of joy\nthat beats in us at twenty becomes sluggish. Our limbs fail, our senses\nrot. We degenerate into hideous puppets, haunted by the memory of the\npassions of which we were too much afraid, and the exquisite\ntemptations that we had not the courage to yield to. Youth! Youth!\nThere is absolutely nothing in the world but youth!”\n\nDorian Gray listened, open-eyed and wondering. The spray of lilac fell\nfrom his hand upon the gravel. A furry bee came and buzzed round it for\na moment. Then it began to scramble all over the oval stellated globe\nof the tiny blossoms. He watched it with that strange interest in\ntrivial things that we try to develop when things of high import make\nus afraid, or when we are stirred by some new emotion for which we\ncannot find expression, or when some thought that terrifies us lays\nsudden siege to the brain and calls on us to yield. After a time the\nbee flew away. He saw it creeping into the stained trumpet of a Tyrian\nconvolvulus. The flower seemed to quiver, and then swayed gently to and\nfro.\n\nSuddenly the painter appeared at the door of the studio and made\nstaccato signs for them to come in. They turned to each other and\nsmiled.\n\n“I am waiting,” he cried. “Do come in. The light is quite perfect, and\nyou can bring your drinks.”\n\nThey rose up and sauntered down the walk together. Two green-and-white\nbutterflies fluttered past them, and in the pear-tree at the corner of\nthe garden a thrush began to sing.\n\n“You are glad you have met me, Mr. Gray,” said Lord Henry, looking at\nhim.\n\n“Yes, I am glad now. I wonder shall I always be glad?”\n\n“Always! That is a dreadful word. It makes me shudder when I hear it.\nWomen are so fond of using it. They spoil every romance by trying to\nmake it last for ever. It is a meaningless word, too. The only\ndifference between a caprice and a lifelong passion is that the caprice\nlasts a little longer.”\n\nAs they entered the studio, Dorian Gray put his hand upon Lord Henry’s\narm. “In that case, let our friendship be a caprice,” he murmured,\nflushing at his own boldness, then stepped up on the platform and\nresumed his pose.\n\nLord Henry flung himself into a large wicker arm-chair and watched him.\nThe sweep and dash of the brush on the canvas made the only sound that\nbroke the stillness, except when, now and then, Hallward stepped back\nto look at his work from a distance. In the slanting beams that\nstreamed through the open doorway the dust danced and was golden. The\nheavy scent of the roses seemed to brood over everything.\n\nAfter about a quarter of an hour Hallward stopped painting, looked for\na long time at Dorian Gray, and then for a long time at the picture,\nbiting the end of one of his huge brushes and frowning. “It is quite\nfinished,” he cried at last, and stooping down he wrote his name in\nlong vermilion letters on the left-hand corner of the canvas.\n\nLord Henry came over and examined the picture. It was certainly a\nwonderful work of art, and a wonderful likeness as well.\n\n“My dear fellow, I congratulate you most warmly,” he said. “It is the\nfinest portrait of modern times. Mr. Gray, come over and look at\nyourself.”\n\nThe lad started, as if awakened from some dream.\n\n“Is it really finished?” he murmured, stepping down from the platform.\n\n“Quite finished,” said the painter. “And you have sat splendidly\nto-day. I am awfully obliged to you.”\n\n“That is entirely due to me,” broke in Lord Henry. “Isn’t it, Mr.\nGray?”\n\nDorian made no answer, but passed listlessly in front of his picture\nand turned towards it. When he saw it he drew back, and his cheeks\nflushed for a moment with pleasure. A look of joy came into his eyes,\nas if he had recognized himself for the first time. He stood there\nmotionless and in wonder, dimly conscious that Hallward was speaking to\nhim, but not catching the meaning of his words. The sense of his own\nbeauty came on him like a revelation. He had never felt it before.\nBasil Hallward’s compliments had seemed to him to be merely the\ncharming exaggeration of friendship. He had listened to them, laughed\nat them, forgotten them. They had not influenced his nature. Then had\ncome Lord Henry Wotton with his strange panegyric on youth, his\nterrible warning of its brevity. That had stirred him at the time, and\nnow, as he stood gazing at the shadow of his own loveliness, the full\nreality of the description flashed across him. Yes, there would be a\nday when his face would be wrinkled and wizen, his eyes dim and\ncolourless, the grace of his figure broken and deformed. The scarlet\nwould pass away from his lips and the gold steal from his hair. The\nlife that was to make his soul would mar his body. He would become\ndreadful, hideous, and uncouth.\n\nAs he thought of it, a sharp pang of pain struck through him like a\nknife and made each delicate fibre of his nature quiver. His eyes\ndeepened into amethyst, and across them came a mist of tears. He felt\nas if a hand of ice had been laid upon his heart.\n\n“Don’t you like it?” cried Hallward at last, stung a little by the\nlad’s silence, not understanding what it meant.\n\n“Of course he likes it,” said Lord Henry. “Who wouldn’t like it? It is\none of the greatest things in modern art. I will give you anything you\nlike to ask for it. I must have it.”\n\n“It is not my property, Harry.”\n\n“Whose property is it?”\n\n“Dorian’s, of course,” answered the painter.\n\n“He is a very lucky fellow.”\n\n“How sad it is!” murmured Dorian Gray with his eyes still fixed upon\nhis own portrait. “How sad it is! I shall grow old, and horrible, and\ndreadful. But this picture will remain always young. It will never be\nolder than this particular day of June.... If it were only the other\nway! If it were I who was to be always young, and the picture that was\nto grow old! For that—for that—I would give everything! Yes, there is\nnothing in the whole world I would not give! I would give my soul for\nthat!”\n\n“You would hardly care for such an arrangement, Basil,” cried Lord\nHenry, laughing. “It would be rather hard lines on your work.”\n\n“I should object very strongly, Harry,” said Hallward.\n\nDorian Gray turned and looked at him. “I believe you would, Basil. You\nlike your art better than your friends. I am no more to you than a\ngreen bronze figure. Hardly as much, I dare say.”\n\nThe painter stared in amazement. It was so unlike Dorian to speak like\nthat. What had happened? He seemed quite angry. His face was flushed\nand his cheeks burning.\n\n“Yes,” he continued, “I am less to you than your ivory Hermes or your\nsilver Faun. You will like them always. How long will you like me? Till\nI have my first wrinkle, I suppose. I know, now, that when one loses\none’s good looks, whatever they may be, one loses everything. Your\npicture has taught me that. Lord Henry Wotton is perfectly right. Youth\nis the only thing worth having. When I find that I am growing old, I\nshall kill myself.”\n\nHallward turned pale and caught his hand. “Dorian! Dorian!” he cried,\n“don’t talk like that. I have never had such a friend as you, and I\nshall never have such another. You are not jealous of material things,\nare you?—you who are finer than any of them!”\n\n“I am jealous of everything whose beauty does not die. I am jealous of\nthe portrait you have painted of me. Why should it keep what I must\nlose? Every moment that passes takes something from me and gives\nsomething to it. Oh, if it were only the other way! If the picture\ncould change, and I could be always what I am now! Why did you paint\nit? It will mock me some day—mock me horribly!” The hot tears welled\ninto his eyes; he tore his hand away and, flinging himself on the\ndivan, he buried his face in the cushions, as though he was praying.\n\n“This is your doing, Harry,” said the painter bitterly.\n\nLord Henry shrugged his shoulders. “It is the real Dorian Gray—that is\nall.”\n\n“It is not.”\n\n“If it is not, what have I to do with it?”\n\n“You should have gone away when I asked you,” he muttered.\n\n“I stayed when you asked me,” was Lord Henry’s answer.\n\n“Harry, I can’t quarrel with my two best friends at once, but between\nyou both you have made me hate the finest piece of work I have ever\ndone, and I will destroy it. What is it but canvas and colour? I will\nnot let it come across our three lives and mar them.”\n\nDorian Gray lifted his golden head from the pillow, and with pallid\nface and tear-stained eyes, looked at him as he walked over to the deal\npainting-table that was set beneath the high curtained window. What was\nhe doing there? His fingers were straying about among the litter of tin\ntubes and dry brushes, seeking for something. Yes, it was for the long\npalette-knife, with its thin blade of lithe steel. He had found it at\nlast. He was going to rip up the canvas.\n\nWith a stifled sob the lad leaped from the couch, and, rushing over to\nHallward, tore the knife out of his hand, and flung it to the end of\nthe studio. “Don’t, Basil, don’t!” he cried. “It would be murder!”\n\n“I am glad you appreciate my work at last, Dorian,” said the painter\ncoldly when he had recovered from his surprise. “I never thought you\nwould.”\n\n“Appreciate it? I am in love with it, Basil. It is part of myself. I\nfeel that.”\n\n“Well, as soon as you are dry, you shall be varnished, and framed, and\nsent home. Then you can do what you like with yourself.” And he walked\nacross the room and rang the bell for tea. “You will have tea, of\ncourse, Dorian? And so will you, Harry? Or do you object to such simple\npleasures?”\n\n“I adore simple pleasures,” said Lord Henry. “They are the last refuge\nof the complex. But I don’t like scenes, except on the stage. What\nabsurd fellows you are, both of you! I wonder who it was defined man as\na rational animal. It was the most premature definition ever given. Man\nis many things, but he is not rational. I am glad he is not, after\nall—though I wish you chaps would not squabble over the picture. You\nhad much better let me have it, Basil. This silly boy doesn’t really\nwant it, and I really do.”\n\n“If you let any one have it but me, Basil, I shall never forgive you!”\ncried Dorian Gray; “and I don’t allow people to call me a silly boy.”\n\n“You know the picture is yours, Dorian. I gave it to you before it\nexisted.”\n\n“And you know you have been a little silly, Mr. Gray, and that you\ndon’t really object to being reminded that you are extremely young.”\n\n“I should have objected very strongly this morning, Lord Henry.”\n\n“Ah! this morning! You have lived since then.”\n\nThere came a knock at the door, and the butler entered with a laden\ntea-tray and set it down upon a small Japanese table. There was a\nrattle of cups and saucers and the hissing of a fluted Georgian urn.\nTwo globe-shaped china dishes were brought in by a page. Dorian Gray\nwent over and poured out the tea. The two men sauntered languidly to\nthe table and examined what was under the covers.\n\n“Let us go to the theatre to-night,” said Lord Henry. “There is sure to\nbe something on, somewhere. I have promised to dine at White’s, but it\nis only with an old friend, so I can send him a wire to say that I am\nill, or that I am prevented from coming in consequence of a subsequent\nengagement. I think that would be a rather nice excuse: it would have\nall the surprise of candour.”\n\n“It is such a bore putting on one’s dress-clothes,” muttered Hallward.\n“And, when one has them on, they are so horrid.”\n\n“Yes,” answered Lord Henry dreamily, “the costume of the nineteenth\ncentury is detestable. It is so sombre, so depressing. Sin is the only\nreal colour-element left in modern life.”\n\n“You really must not say things like that before Dorian, Harry.”\n\n“Before which Dorian? The one who is pouring out tea for us, or the one\nin the picture?”\n\n“Before either.”\n\n“I should like to come to the theatre with you, Lord Henry,” said the\nlad.\n\n“Then you shall come; and you will come, too, Basil, won’t you?”\n\n“I can’t, really. I would sooner not. I have a lot of work to do.”\n\n“Well, then, you and I will go alone, Mr. Gray.”\n\n“I should like that awfully.”\n\nThe painter bit his lip and walked over, cup in hand, to the picture.\n“I shall stay with the real Dorian,” he said, sadly.\n\n“Is it the real Dorian?” cried the original of the portrait, strolling\nacross to him. “Am I really like that?”\n\n“Yes; you are just like that.”\n\n“How wonderful, Basil!”\n\n“At least you are like it in appearance. But it will never alter,”\nsighed Hallward. “That is something.”\n\n“What a fuss people make about fidelity!” exclaimed Lord Henry. “Why,\neven in love it is purely a question for physiology. It has nothing to\ndo with our own will. Young men want to be faithful, and are not; old\nmen want to be faithless, and cannot: that is all one can say.”\n\n“Don’t go to the theatre to-night, Dorian,” said Hallward. “Stop and\ndine with me.”\n\n“I can’t, Basil.”\n\n“Why?”\n\n“Because I have promised Lord Henry Wotton to go with him.”\n\n“He won’t like you the better for keeping your promises. He always\nbreaks his own. I beg you not to go.”\n\nDorian Gray laughed and shook his head.\n\n“I entreat you.”\n\nThe lad hesitated, and looked over at Lord Henry, who was watching them\nfrom the tea-table with an amused smile.\n\n“I must go, Basil,” he answered.\n\n“Very well,” said Hallward, and he went over and laid down his cup on\nthe tray. “It is rather late, and, as you have to dress, you had better\nlose no time. Good-bye, Harry. Good-bye, Dorian. Come and see me soon.\nCome to-morrow.”\n\n“Certainly.”\n\n“You won’t forget?”\n\n“No, of course not,” cried Dorian.\n\n“And ... Harry!”\n\n“Yes, Basil?”\n\n“Remember what I asked you, when we were in the garden this morning.”\n\n“I have forgotten it.”\n\n“I trust you.”\n\n“I wish I could trust myself,” said Lord Henry, laughing. “Come, Mr.\nGray, my hansom is outside, and I can drop you at your own place.\nGood-bye, Basil. It has been a most interesting afternoon.”\n\nAs the door closed behind them, the painter flung himself down on a\nsofa, and a look of pain came into his face."
+        },
+        "publishDate": {
+          "en-US": "2021-05-07T00:00-04:00"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "y7ixpeslcv9a"
+          }
+        },
+        "id": "4J7vOIygSQOuFKhSX8Dp3P",
+        "type": "Entry",
+        "createdAt": "2021-05-18T15:15:37.622Z",
+        "updatedAt": "2021-05-18T15:19:01.545Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2021-05-18T15:19:01.545Z",
+        "firstPublishedAt": "2021-05-18T15:19:01.545Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7g1WuwYR44Dg2BlyNuoeOT"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7g1WuwYR44Dg2BlyNuoeOT"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "7g1WuwYR44Dg2BlyNuoeOT"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blogPost"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "The Strange Case Of Dr. Jekyll And Mr. Hyde, Chapter 5"
+        },
+        "slug": {
+          "en-US": "the-strange-case-of-dr-jekyll-and-mr-hyde-chapter"
+        },
+        "description": {
+          "en-US": "The first chapter of Frankenstein"
+        },
+        "body": {
+          "en-US": "It was late in the afternoon, when Mr. Utterson found his way to Dr.\nJekyll’s door, where he was at once admitted by Poole, and carried down\nby the kitchen offices and across a yard which had once been a garden,\nto the building which was indifferently known as the laboratory or\ndissecting rooms. The doctor had bought the house from the heirs of a\ncelebrated surgeon; and his own tastes being rather chemical than\nanatomical, had changed the destination of the block at the bottom of\nthe garden. It was the first time that the lawyer had been received in\nthat part of his friend’s quarters; and he eyed the dingy, windowless\nstructure with curiosity, and gazed round with a distasteful sense of\nstrangeness as he crossed the theatre, once crowded with eager students\nand now lying gaunt and silent, the tables laden with chemical\napparatus, the floor strewn with crates and littered with packing\nstraw, and the light falling dimly through the foggy cupola. At the\nfurther end, a flight of stairs mounted to a door covered with red\nbaize; and through this, Mr. Utterson was at last received into the\ndoctor’s cabinet. It was a large room fitted round with glass presses,\nfurnished, among other things, with a cheval-glass and a business\ntable, and looking out upon the court by three dusty windows barred\nwith iron. The fire burned in the grate; a lamp was set lighted on the\nchimney shelf, for even in the houses the fog began to lie thickly; and\nthere, close up to the warmth, sat Dr. Jekyll, looking deathly sick. He\ndid not rise to meet his visitor, but held out a cold hand and bade him\nwelcome in a changed voice.\n\n“And now,” said Mr. Utterson, as soon as Poole had left them, “you have\nheard the news?”\n\nThe doctor shuddered. “They were crying it in the square,” he said. “I\nheard them in my dining-room.”\n\n“One word,” said the lawyer. “Carew was my client, but so are you, and\nI want to know what I am doing. You have not been mad enough to hide\nthis fellow?”\n\n“Utterson, I swear to God,” cried the doctor, “I swear to God I will\nnever set eyes on him again. I bind my honour to you that I am done\nwith him in this world. It is all at an end. And indeed he does not\nwant my help; you do not know him as I do; he is safe, he is quite\nsafe; mark my words, he will never more be heard of.”\n\nThe lawyer listened gloomily; he did not like his friend’s feverish\nmanner. “You seem pretty sure of him,” said he; “and for your sake, I\nhope you may be right. If it came to a trial, your name might appear.”\n\n“I am quite sure of him,” replied Jekyll; “I have grounds for certainty\nthat I cannot share with any one. But there is one thing on which you\nmay advise me. I have—I have received a letter; and I am at a loss\nwhether I should show it to the police. I should like to leave it in\nyour hands, Utterson; you would judge wisely, I am sure; I have so\ngreat a trust in you.”\n\n“You fear, I suppose, that it might lead to his detection?” asked the\nlawyer.\n\n“No,” said the other. “I cannot say that I care what becomes of Hyde; I\nam quite done with him. I was thinking of my own character, which this\nhateful business has rather exposed.”\n\nUtterson ruminated awhile; he was surprised at his friend’s\nselfishness, and yet relieved by it. “Well,” said he, at last, “let me\nsee the letter.”\n\nThe letter was written in an odd, upright hand and signed “Edward\nHyde”: and it signified, briefly enough, that the writer’s benefactor,\nDr. Jekyll, whom he had long so unworthily repaid for a thousand\ngenerosities, need labour under no alarm for his safety, as he had\nmeans of escape on which he placed a sure dependence. The lawyer liked\nthis letter well enough; it put a better colour on the intimacy than he\nhad looked for; and he blamed himself for some of his past suspicions.\n\n“Have you the envelope?” he asked.\n\n“I burned it,” replied Jekyll, “before I thought what I was about. But\nit bore no postmark. The note was handed in.”\n\n“Shall I keep this and sleep upon it?” asked Utterson.\n\n“I wish you to judge for me entirely,” was the reply. “I have lost\nconfidence in myself.”\n\n“Well, I shall consider,” returned the lawyer. “And now one word more:\nit was Hyde who dictated the terms in your will about that\ndisappearance?”\n\nThe doctor seemed seized with a qualm of faintness; he shut his mouth\ntight and nodded.\n\n“I knew it,” said Utterson. “He meant to murder you. You had a fine\nescape.”\n\n“I have had what is far more to the purpose,” returned the doctor\nsolemnly: “I have had a lesson—O God, Utterson, what a lesson I have\nhad!” And he covered his face for a moment with his hands.\n\nOn his way out, the lawyer stopped and had a word or two with Poole.\n“By the bye,” said he, “there was a letter handed in to-day: what was\nthe messenger like?” But Poole was positive nothing had come except by\npost; “and only circulars by that,” he added.\n\nThis news sent off the visitor with his fears renewed. Plainly the\nletter had come by the laboratory door; possibly, indeed, it had been\nwritten in the cabinet; and if that were so, it must be differently\njudged, and handled with the more caution. The newsboys, as he went,\nwere crying themselves hoarse along the footways: “Special edition.\nShocking murder of an M.P.” That was the funeral oration of one friend\nand client; and he could not help a certain apprehension lest the good\nname of another should be sucked down in the eddy of the scandal. It\nwas, at least, a ticklish decision that he had to make; and\nself-reliant as he was by habit, he began to cherish a longing for\nadvice. It was not to be had directly; but perhaps, he thought, it\nmight be fished for.\n\nPresently after, he sat on one side of his own hearth, with Mr. Guest,\nhis head clerk, upon the other, and midway between, at a nicely\ncalculated distance from the fire, a bottle of a particular old wine\nthat had long dwelt unsunned in the foundations of his house. The fog\nstill slept on the wing above the drowned city, where the lamps\nglimmered like carbuncles; and through the muffle and smother of these\nfallen clouds, the procession of the town’s life was still rolling in\nthrough the great arteries with a sound as of a mighty wind. But the\nroom was gay with firelight. In the bottle the acids were long ago\nresolved; the imperial dye had softened with time, as the colour grows\nricher in stained windows; and the glow of hot autumn afternoons on\nhillside vineyards, was ready to be set free and to disperse the fogs\nof London. Insensibly the lawyer melted. There was no man from whom he\nkept fewer secrets than Mr. Guest; and he was not always sure that he\nkept as many as he meant. Guest had often been on business to the\ndoctor’s; he knew Poole; he could scarce have failed to hear of Mr.\nHyde’s familiarity about the house; he might draw conclusions: was it\nnot as well, then, that he should see a letter which put that mystery\nto right? and above all since Guest, being a great student and critic\nof handwriting, would consider the step natural and obliging? The\nclerk, besides, was a man of counsel; he could scarce read so strange a\ndocument without dropping a remark; and by that remark Mr. Utterson\nmight shape his future course.\n\n“This is a sad business about Sir Danvers,” he said.\n\n“Yes, sir, indeed. It has elicited a great deal of public feeling,”\nreturned Guest. “The man, of course, was mad.”\n\n“I should like to hear your views on that,” replied Utterson. “I have a\ndocument here in his handwriting; it is between ourselves, for I scarce\nknow what to do about it; it is an ugly business at the best. But there\nit is; quite in your way: a murderer’s autograph.”\n\nGuest’s eyes brightened, and he sat down at once and studied it with\npassion. “No sir,” he said: “not mad; but it is an odd hand.”\n\n“And by all accounts a very odd writer,” added the lawyer.\n\nJust then the servant entered with a note.\n\n“Is that from Dr. Jekyll, sir?” inquired the clerk. “I thought I knew\nthe writing. Anything private, Mr. Utterson?”\n\n“Only an invitation to dinner. Why? Do you want to see it?”\n\n“One moment. I thank you, sir;” and the clerk laid the two sheets of\npaper alongside and sedulously compared their contents. “Thank you,\nsir,” he said at last, returning both; “it’s a very interesting\nautograph.”\n\nThere was a pause, during which Mr. Utterson struggled with himself.\n“Why did you compare them, Guest?” he inquired suddenly.\n\n“Well, sir,” returned the clerk, “there’s a rather singular\nresemblance; the two hands are in many points identical: only\ndifferently sloped.”\n\n“Rather quaint,” said Utterson.\n\n“It is, as you say, rather quaint,” returned Guest.\n\n“I wouldn’t speak of this note, you know,” said the master.\n\n“No, sir,” said the clerk. “I understand.”\n\nBut no sooner was Mr. Utterson alone that night, than he locked the\nnote into his safe, where it reposed from that time forward. “What!” he\nthought. “Henry Jekyll forge for a murderer!” And his blood ran cold in\nhis veins.\n\nINCIDENT OF DR. LANYON\n\nTime ran on; thousands of pounds were offered in reward, for the death\nof Sir Danvers was resented as a public injury; but Mr. Hyde had\ndisappeared out of the ken of the police as though he had never\nexisted. Much of his past was unearthed, indeed, and all disreputable:\ntales came out of the man’s cruelty, at once so callous and violent; of\nhis vile life, of his strange associates, of the hatred that seemed to\nhave surrounded his career; but of his present whereabouts, not a\nwhisper. From the time he had left the house in Soho on the morning of\nthe murder, he was simply blotted out; and gradually, as time drew on,\nMr. Utterson began to recover from the hotness of his alarm, and to\ngrow more at quiet with himself. The death of Sir Danvers was, to his\nway of thinking, more than paid for by the disappearance of Mr. Hyde.\nNow that that evil influence had been withdrawn, a new life began for\nDr. Jekyll. He came out of his seclusion, renewed relations with his\nfriends, became once more their familiar guest and entertainer; and\nwhilst he had always been known for charities, he was now no less\ndistinguished for religion. He was busy, he was much in the open air,\nhe did good; his face seemed to open and brighten, as if with an inward\nconsciousness of service; and for more than two months, the doctor was\nat peace.\n\nOn the 8th of January Utterson had dined at the doctor’s with a small\nparty; Lanyon had been there; and the face of the host had looked from\none to the other as in the old days when the trio were inseparable\nfriends. On the 12th, and again on the 14th, the door was shut against\nthe lawyer. “The doctor was confined to the house,” Poole said, “and\nsaw no one.” On the 15th, he tried again, and was again refused; and\nhaving now been used for the last two months to see his friend almost\ndaily, he found this return of solitude to weigh upon his spirits. The\nfifth night he had in Guest to dine with him; and the sixth he betook\nhimself to Dr. Lanyon’s.\n\nThere at least he was not denied admittance; but when he came in, he\nwas shocked at the change which had taken place in the doctor’s\nappearance. He had his death-warrant written legibly upon his face. The\nrosy man had grown pale; his flesh had fallen away; he was visibly\nbalder and older; and yet it was not so much these tokens of a swift\nphysical decay that arrested the lawyer’s notice, as a look in the eye\nand quality of manner that seemed to testify to some deep-seated terror\nof the mind. It was unlikely that the doctor should fear death; and yet\nthat was what Utterson was tempted to suspect. “Yes,” he thought; “he\nis a doctor, he must know his own state and that his days are counted;\nand the knowledge is more than he can bear.” And yet when Utterson\nremarked on his ill looks, it was with an air of great firmness that\nLanyon declared himself a doomed man.\n\n“I have had a shock,” he said, “and I shall never recover. It is a\nquestion of weeks. Well, life has been pleasant; I liked it; yes, sir,\nI used to like it. I sometimes think if we knew all, we should be more\nglad to get away.”\n\n“Jekyll is ill, too,” observed Utterson. “Have you seen him?”\n\nBut Lanyon’s face changed, and he held up a trembling hand. “I wish to\nsee or hear no more of Dr. Jekyll,” he said in a loud, unsteady voice.\n“I am quite done with that person; and I beg that you will spare me any\nallusion to one whom I regard as dead.”\n\n“Tut, tut!” said Mr. Utterson; and then after a considerable pause,\n“Can’t I do anything?” he inquired. “We are three very old friends,\nLanyon; we shall not live to make others.”\n\n“Nothing can be done,” returned Lanyon; “ask himself.”\n\n“He will not see me,” said the lawyer.\n\n“I am not surprised at that,” was the reply. “Some day, Utterson, after\nI am dead, you may perhaps come to learn the right and wrong of this. I\ncannot tell you. And in the meantime, if you can sit and talk with me\nof other things, for God’s sake, stay and do so; but if you cannot keep\nclear of this accursed topic, then in God’s name, go, for I cannot bear\nit.”\n\nAs soon as he got home, Utterson sat down and wrote to Jekyll,\ncomplaining of his exclusion from the house, and asking the cause of\nthis unhappy break with Lanyon; and the next day brought him a long\nanswer, often very pathetically worded, and sometimes darkly mysterious\nin drift. The quarrel with Lanyon was incurable. “I do not blame our\nold friend,” Jekyll wrote, “but I share his view that we must never\nmeet. I mean from henceforth to lead a life of extreme seclusion; you\nmust not be surprised, nor must you doubt my friendship, if my door is\noften shut even to you. You must suffer me to go my own dark way. I\nhave brought on myself a punishment and a danger that I cannot name. If\nI am the chief of sinners, I am the chief of sufferers also. I could\nnot think that this earth contained a place for sufferings and terrors\nso unmanning; and you can do but one thing, Utterson, to lighten this\ndestiny, and that is to respect my silence.” Utterson was amazed; the\ndark influence of Hyde had been withdrawn, the doctor had returned to\nhis old tasks and amities; a week ago, the prospect had smiled with\nevery promise of a cheerful and an honoured age; and now in a moment,\nfriendship, and peace of mind, and the whole tenor of his life were\nwrecked. So great and unprepared a change pointed to madness; but in\nview of Lanyon’s manner and words, there must lie for it some deeper\nground.\n\nA week afterwards Dr. Lanyon took to his bed, and in something less\nthan a fortnight he was dead. The night after the funeral, at which he\nhad been sadly affected, Utterson locked the door of his business room,\nand sitting there by the light of a melancholy candle, drew out and set\nbefore him an envelope addressed by the hand and sealed with the seal\nof his dead friend. “PRIVATE: for the hands of G. J. Utterson ALONE,\nand in case of his predecease _to be destroyed unread_,” so it was\nemphatically superscribed; and the lawyer dreaded to behold the\ncontents. “I have buried one friend to-day,” he thought: “what if this\nshould cost me another?” And then he condemned the fear as a\ndisloyalty, and broke the seal. Within there was another enclosure,\nlikewise sealed, and marked upon the cover as “not to be opened till\nthe death or disappearance of Dr. Henry Jekyll.” Utterson could not\ntrust his eyes. Yes, it was disappearance; here again, as in the mad\nwill which he had long ago restored to its author, here again were the\nidea of a disappearance and the name of Henry Jekyll bracketted. But in\nthe will, that idea had sprung from the sinister suggestion of the man\nHyde; it was set there with a purpose all too plain and horrible.\nWritten by the hand of Lanyon, what should it mean? A great curiosity\ncame on the trustee, to disregard the prohibition and dive at once to\nthe bottom of these mysteries; but professional honour and faith to his\ndead friend were stringent obligations; and the packet slept in the\ninmost corner of his private safe.\n\nIt is one thing to mortify curiosity, another to conquer it; and it may\nbe doubted if, from that day forth, Utterson desired the society of his\nsurviving friend with the same eagerness. He thought of him kindly; but\nhis thoughts were disquieted and fearful. He went to call indeed; but\nhe was perhaps relieved to be denied admittance; perhaps, in his heart,\nhe preferred to speak with Poole upon the doorstep and surrounded by\nthe air and sounds of the open city, rather than to be admitted into\nthat house of voluntary bondage, and to sit and speak with its\ninscrutable recluse. Poole had, indeed, no very pleasant news to\ncommunicate. The doctor, it appeared, now more than ever confined\nhimself to the cabinet over the laboratory, where he would sometimes\neven sleep; he was out of spirits, he had grown very silent, he did not\nread; it seemed as if he had something on his mind. Utterson became so\nused to the unvarying character of these reports, that he fell off\nlittle by little in the frequency of his visits."
+        },
+        "publishDate": {
+          "en-US": "2021-05-07T00:00-04:00"
         }
       }
     }

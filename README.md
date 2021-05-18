@@ -36,7 +36,7 @@ This is the repository for the development of a portfolio website template. This
 
 ## Setup
 
-1. Fork the repository.
+1. Fork the repository or use the `Use Template` button.
    
 2. Clone the repository.
 
@@ -109,7 +109,11 @@ module.exports = {
   },
 ```
 
-7. Finally, run in development mode.
+7. (Optional) Update the favicon at `src/assets/images/favicon.png` if you want.
+
+8. (Optional) Update the CSS and styles if you want at in `src/styles`.
+
+9. Finally, run in development mode.
 
 ```
 npm run dev
