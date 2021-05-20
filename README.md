@@ -141,7 +141,7 @@ npm run dev
 
 The underlying source code is licensed under an [MIT LICENSE](LICENSE.md)
 
-[![LICENSE](https://img.shields.io/github/license/Kyle-L/Kyle-L.github.io)](LICENSE.md)
+[![LICENSE](https://img.shields.io/github/license/Kyle-L/Portfolio-Template)](LICENSE.md)
 
 The graphics used are licensed under a [CC BY-NC 4.0 License](https://licensebuttons.net/l/by-nc/4.0/80x15.png).
 
