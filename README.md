@@ -104,7 +104,7 @@ module.exports = {
       instagram: 'https://instagram.com/my-profile',
       linkedin: 'https://linkedin.com/my-profile',
       github: 'https://github.com/my-profile',
-      email: 'mailto:myemail@mail.com',
+      email: 'myemail@mail.com',
     },
   },
 ```
