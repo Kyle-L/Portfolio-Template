@@ -56,7 +56,7 @@ cd Portfolio/
 npm install
 ```
 
-5. Setup environmental variables and update contentful space model.
+5. Setup environmental variables and update contentful space model. (_Note:_ This assumes you are only using one localization in Contentful.)
 
 ```
 npm run setup
